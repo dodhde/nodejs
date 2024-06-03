@@ -1,7 +1,7 @@
 const express = require('express');
 const ejs = require('ejs');
 const app = express();
-const port = 80;
+const port = 8002;
 
 app.listen(port, '0.0.0.0', () => {
     console.log(`Server running at http://0.0.0.0:${port}/`);
